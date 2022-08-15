@@ -1,0 +1,50 @@
+.card--container {
+  display: flex;
+  border: 1px solid #b7becc;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 10px;
+  gap: 8px;
+
+  width: 304px;
+  height: 185px;
+
+  margin: 62px 40px;
+  border-radius: 10px;
+
+  background: #f2fbf6;
+}
+
+.card--btn {
+  width: 68px;
+  height: 31px;
+  font-size: 12px !important;
+  color: white !important;
+  padding: 10px 50px !important;
+  font-weight: 400;
+  line-height: 15px;
+  border-radius: 8px;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 24px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 30px;
+  margin: 8px 0px;
+}
+
+.card--btn--green {
+  background: #6fd791 !important;
+  text-transform: capitalize !important;
+}
+
+.card--btn--red {
+  background: #bc3131 !important;
+  text-transform: capitalize !important;
+}
